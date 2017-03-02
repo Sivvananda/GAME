@@ -34,7 +34,7 @@ class game:
 		print(self.a)
 		userw=[]
 		i=1
-		print("-----------------------------------INSTRUCTIONS-------------------------------------\nenter words of length 'GREATER THAN  (OR) EQUAL TO  3' and which in include the 'MIDDLE LETTER'.\nRepeatition of one letter is not allowed (if same letter appears twice then treat them as different letter i.e each of the letters can appear once.\nFor each word of length between 3 and 8 including(3,8) gives you 10 points and a letter of length of 9 would give u a bonus of 20 points.\nQUIT THE GAME BY TYPING 0.\nREFRESH THE ARRAY BY TYPING 1.\nYOUR WORD(S):")
+		print("-----------------------------------INSTRUCTIONS-------------------------------------\nenter words of length 'GREATER THAN  (OR) EQUAL TO  3' and which in include the 'CENTRE  LETTER OF THE ARRAY'.\nRepeatition of one letter is not allowed (if same letter appears twice then treat them as different letter i.e each of the letters can appear once.\nFor each word of length between 3 and 8 including(3,8) gives you 10 points and a letter of length of 9 would give u a bonus of 20 points.\nQUIT THE GAME BY TYPING 0.\nREFRESH THE ARRAY BY TYPING 1.\nYOUR WORD(S):")
 		if self.diff in range(20):print("DIFFICULTY: VERY HARD")
 		elif self.diff in range(20,35):print("DIFFICULTY:  HARD")
 		elif self.diff in range(35,65):print("DIFFICULTY:  MEDIUM")
